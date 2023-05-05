@@ -1,0 +1,46 @@
+  *-network
+       description: Ethernet interface
+       product: RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller
+       vendor: Realtek Semiconductor Co., Ltd.
+       physical id: 0
+       bus info: pci@0000:02:00.0
+       logical name: enp2s0
+       version: 0c
+       serial: 64:00:6a:15:b5:df
+       capacity: 1Gbit/s
+       width: 64 bits
+       clock: 33MHz
+       capabilities: bus_master cap_list ethernet physical tp mii 10bt 10bt-fd 100bt 100bt-fd 1000bt-fd autonegotiation
+       configuration: autonegotiation=on broadcast=yes driver=r8169 driverversion=5.19.0-41-generic firmware=rtl8168g-2_0.0.1 02/06/13 latency=0 link=no multicast=yes port=twisted pair
+       resources: irq:19 ioport:e000(size=256) memory:f7c00000-f7c00fff memory:f0000000-f0003fff
+  *-network
+       description: Wireless interface
+       physical id: 9
+       bus info: usb@3:9
+       logical name: wlx8c882b000650
+       serial: 8c:88:2b:00:06:50
+       capabilities: ethernet physical wireless
+       configuration: broadcast=yes driver=rtl8xxxu driverversion=5.19.0-41-generic firmware=N/A ip=192.168.1.244 link=yes multicast=yes wireless=IEEE 802.11
+  *-network
+       description: Ethernet interface
+       product: RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller
+       vendor: Realtek Semiconductor Co., Ltd.
+       physical id: 0
+       bus info: pci@0000:02:00.0
+       logical name: enp2s0
+       version: 0c
+       serial: 64:00:6a:15:b5:df
+       capacity: 1Gbit/s
+       width: 64 bits
+       clock: 33MHz
+       capabilities: bus_master cap_list ethernet physical tp mii 10bt 10bt-fd 100bt 100bt-fd 1000bt-fd autonegotiation
+       configuration: autonegotiation=on broadcast=yes driver=r8169 driverversion=5.19.0-41-generic firmware=rtl8168g-2_0.0.1 02/06/13 latency=0 link=no multicast=yes port=twisted pair
+       resources: irq:19 ioport:e000(size=256) memory:f7c00000-f7c00fff memory:f0000000-f0003fff
+  *-network
+       description: Wireless interface
+       physical id: 9
+       bus info: usb@3:9
+       logical name: wlx8c882b000650
+       serial: 8c:88:2b:00:06:50
+       capabilities: ethernet physical wireless
+       configuration: broadcast=yes driver=rtl8xxxu driverversion=5.19.0-41-generic firmware=N/A ip=192.168.1.244 link=yes multicast=yes wireless=IEEE 802.11
